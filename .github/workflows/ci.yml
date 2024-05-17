@@ -51,13 +51,13 @@ jobs:
       - name: Setup Node.js env
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 21
           cache: 'npm'
           cache-dependency-path: applications/sveltekit
       - name: Build and run sample
         run: |
           cd applications/sveltekit
-          npm i
+          npm i --legacy-peer-deps
           npm run dev
           page="$(curl -s 'http://localhost:3000')"
           echo "$page"

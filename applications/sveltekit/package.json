@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "dotenv": "^16.0.3",
-    "svelte": "^3.42.6",
+    "svelte": "^4.4.1",
     "tailwindcss": "^2.2.19",
     "@sveltejs/kit": "next",
     "mysql2": "^3.2.0"

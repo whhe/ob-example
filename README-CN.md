@@ -21,6 +21,7 @@
 如下是本仓库已经添加或计划在近期添加的示例:
 
 - application
+  - `sveltekit`
   - TODO: `hertzbeat` `seatunnel`
 - c
   - TODO: `obconnector-c`
@@ -34,8 +35,6 @@
 - java
   - `mybatis-plus` `mysql-connector-java` `oceanbase-client` `testcontainers-java`
   - TODO: `mybatis` `hibernate` `spring-jdbc` `spring-data-jpa` `hikaricp` `flink-cdc` `oblogclient` `obkv-table-client-java`
-- javascript
-  - `sveltekit`
 - php
   - TODO: `mysqli` `pdo`
 - python

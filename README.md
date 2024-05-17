@@ -21,6 +21,7 @@ We have created some issues on GitHub for some samples which are simple and good
 The following are samples that have been added or planned to be added in the near future:
 
 - application
+  - `sveltekit`
   - TODO: `hertzbeat` `seatunnel`
 - c
   - TODO: `obconnector-c`
@@ -34,8 +35,6 @@ The following are samples that have been added or planned to be added in the nea
 - java
   - `mybatis-plus` `mysql-connector-java` `oceanbase-client` `testcontainers-java`
   - TODO: `mybatis` `hibernate` `spring-jdbc` `spring-data-jpa` `hikaricp` `flink-cdc` `oblogclient` `obkv-table-client-java`
-- javascript
-  - `sveltekit`
 - php
   - TODO: `mysqli` `pdo`
 - python

@@ -42,3 +42,21 @@ jobs:
       module: ${{ matrix.module.name }}
       language: ${{ matrix.module.language }}
       with_oceanbase_container: ${{ matrix.module.with_oceanbase_container }}
+
+  application-sveltekit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+      - name: Setup Node.js env
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+      - name: Build and run sample
+        run: |
+          cd applications/sveltekit
+          npm i
+          npm run dev
+          page="$(curl -s 'http://localhost:3000')"
+          echo "$page"

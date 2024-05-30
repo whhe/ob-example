@@ -52,6 +52,15 @@ jobs:
           - name: 'springboot'
             language: 'java'
             with_oceanbase_container: true
+          - name: 'mysql2'
+            language: 'ruby'
+            with_oceanbase_container: true
+          - name: 'sequel'
+            language: 'ruby'
+            with_oceanbase_container: true
+          - name: 'activerecord'
+            language: 'ruby'
+            with_oceanbase_container: true
     uses: ./.github/workflows/basic-workflow.yml
     with:
       module: ${{ matrix.module.name }}

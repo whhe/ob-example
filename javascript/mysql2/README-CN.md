@@ -57,6 +57,3 @@ connection.connect(error => {
 ```bash
 sh run.sh
 ```
-
-  ActiveRecord::Base.connection.close if ActiveRecord::Base.connected?
-end
